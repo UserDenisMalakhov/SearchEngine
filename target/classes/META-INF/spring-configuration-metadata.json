@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "search-engine-properties.preload",
+      "type": "main.dto.UserProvidedData",
+      "sourceType": "main.dto.UserProvidedData"
+    }
+  ],
+  "properties": [
+    {
+      "name": "search-engine-properties.preload.authorisations",
+      "type": "java.util.List<main.dto.AuthDetailsDTO>",
+      "sourceType": "main.dto.UserProvidedData"
+    },
+    {
+      "name": "search-engine-properties.preload.fields",
+      "type": "java.util.List<main.dto.FieldDTO>",
+      "sourceType": "main.dto.UserProvidedData"
+    },
+    {
+      "name": "search-engine-properties.preload.sites",
+      "type": "java.util.List<main.dto.SiteUrlAndNameDTO>",
+      "sourceType": "main.dto.UserProvidedData"
+    }
+  ],
+  "hints": []
+}
